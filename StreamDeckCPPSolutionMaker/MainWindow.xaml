@@ -23,7 +23,7 @@
         <TextBox x:Name="mCategoryTB" HorizontalAlignment="Left" Margin="176,260,0,0" Text="Custom Tools" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" MaxLines="1"/>
         <Button x:Name="GenerateButton" Content="Generate" Margin="0,0,30,10" Click="GenerateClick" HorizontalAlignment="Right" Width="122" Height="20" VerticalAlignment="Bottom"/>
         <Label x:Name="mExtensionsToProcessLabel" Content="Extensions to avoid" HorizontalAlignment="Left" Margin="50,354,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox x:Name="mExtensionsToProcessTB" HorizontalAlignment="Left" Margin="176,358,0,0" Text=".h;.cpp;.c;.filters;.sln;.vcxproj" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" MaxLines="1"/>
+        <TextBox x:Name="mExtensionsToProcessTB" HorizontalAlignment="Left" Margin="176,358,0,0" Text=".h;.cpp;.c;.filters;.sln;.vcxproj;.json" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" MaxLines="1"/>
         <Label x:Name="mDirectoriesToIgnoreLabel" Content="Directories to ignore" HorizontalAlignment="Left" Margin="50,385,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
         <TextBox x:Name="mDirectoriesToIgnoreTB" HorizontalAlignment="Left" Margin="176,389,0,0" Text="Vendor;bin" TextWrapping="Wrap" VerticalAlignment="Top" Width="293" MaxLines="1"/>
     </Grid>
