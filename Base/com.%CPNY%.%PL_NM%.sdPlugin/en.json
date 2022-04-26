@@ -1,0 +1,8 @@
+{
+  "Description": "No description", 
+  "Name": "%PL_NM%", 
+  "com.%cpny%.%pl_nm%.%pl_nm%": {
+    "Name": "%PL_NM%", 
+    "Tooltip": "This action need to be described"
+  }
+}

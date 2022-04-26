@@ -1,0 +1,39 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/icon", 
+      "Name": "%PL_NM%", 
+      "States": [
+        {
+          "Image": "Images/pluginAction",
+          "TitleAlignment": "middle", 
+          "FontSize": "25"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "This action needs to be described", 
+      "UUID": "com.%cpny%.%pl_nm%.%pl_nm%"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "%AU_NM%", 
+  "CodePathWin": "%PL_NM%.exe", 
+  "CodePathMac": "%PL_NM%", 
+  "Description": "Displays 100.", 
+  "Name": "%PL_NM%", 
+  "Icon": "Images/pluginIcon", 
+  "URL": "%UWRL%",
+  "Category": "%CTGR%",
+  "CategoryIcon": "Images/categoryIcon",
+  "Version": "0.25",
+  "OS": [
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}

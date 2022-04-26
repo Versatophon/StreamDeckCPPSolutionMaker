@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Common\main.cpp" />
+    <ClCompile Include="..\Common\ESDConnectionManager.cpp">
+      <Filter>ESD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ESDLocalizer.cpp">
+      <Filter>ESD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\ESDUtilitiesWindows.cpp">
+      <Filter>ESD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\%BC_NM%.cpp">
+      <Filter>%PL_NM%</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\ESDBasePlugin.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ESDConnectionManager.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ESDSDKDefines.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ESDLocalizer.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ESDUtilities.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\%BC_NM%.h">
+      <Filter>%PL_NM%</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\EPLJSONUtils.h">
+      <Filter>ESD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ESD">
+      <UniqueIdentifier>{0d64f186-4e9f-4c82-859e-507fec6e0b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="%PL_NM%">
+      <UniqueIdentifier>{49f07157-c811-446d-9022-a2de6eb387ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{f2466ed7-a0bf-4a65-ab24-abf25fabcf6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
