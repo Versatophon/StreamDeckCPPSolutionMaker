@@ -1,15 +1,15 @@
 //==============================================================================
 /**
-@file       BC_NM.cpp
+@file       %BC_NM%.cpp
 
-@brief      PL_NM plugin
+@brief      %PL_NM% plugin
 
 @copyright  %CP_RGT%
 
 **/
 //==============================================================================
 
-#include "BC_NM.h"
+#include "%BC_NM%.h"
 #include <atomic>
 
 #ifdef __APPLE__
